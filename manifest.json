@@ -1,0 +1,18 @@
+{
+  "name": "focusMuter",
+  "version": "0.1",
+  "author": "HH-1",
+  "description": "Control where the sound come from",
+  "manifest_version": 2,
+  "permissions": ["tabs",
+    "https://*/",
+    "http://*/",
+    "storage"],
+  "background":{
+    "scripts": ["background.js"],
+    "persistant": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
